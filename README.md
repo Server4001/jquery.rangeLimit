@@ -22,18 +22,18 @@ HTML:
 
 JavaScript:
 
-`$(document).ready(function() {`
+`$(document).ready(function() {
 
-	`$("#txtCampaignDetails").rangeLimit({`
+	$("#txtCampaignDetails").rangeLimit({
 
-		`at_least: 140,`
+		at_least: 140,
 
-		`no_more_than: 1000,`
+		no_more_than: 1000,
 
-		`id_result: "charsToGo",`
+		id_result: "charsToGo",
 
-		`alertClass: "text-danger"`
+		alertClass: "text-danger"
 
-	`});`
-	
-`});`
+	});
+
+});`
