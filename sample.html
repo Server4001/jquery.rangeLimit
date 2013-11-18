@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery RangeLimit</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="span6 offset3">
+			<div class="well well-large">
+				<textarea id="txtCampaignDetails" class="span5 form-control" rows="5" placeholder="EX: We just released our new burger special for the month. Check it out!"></textarea>
+				<p id="charsToGo"></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+<script src="jquery.rangeLimit.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#txtCampaignDetails").rangeLimit({
+		at_least: 140,
+		no_more_than: 1000,
+		id_result: "charsToGo",
+		alertClass: "text-danger"
+	});
+});
+</script>
+</body>
+</html>
