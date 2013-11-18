@@ -22,11 +22,11 @@ HTML:
 
 JavaScript:
 
-`$(document).ready(function() {
-	$("#txtCampaignDetails").rangeLimit({
-		at_least: 140,
-		no_more_than: 1000,
-		id_result: "charsToGo",
-		alertClass: "text-danger"
-	});
-});`
+`$(document).ready(function() {`
+	`$("#txtCampaignDetails").rangeLimit({`
+		`at_least: 140,`
+		`no_more_than: 1000,`
+		`id_result: "charsToGo",`
+		`alertClass: "text-danger"`
+	`});`
+`});`
