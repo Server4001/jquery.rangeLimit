@@ -22,11 +22,22 @@ rows="5" placeholder="Details here"></textarea>
 
 JavaScript:
 
-$(document).ready(function() {
-	$("#txtCampaignDetails").rangeLimit({
-		at_least: 140,
-		no_more_than: 1000,
-		id_result: "charsToGo",
-		alertClass: "text-danger"
-	});
-});
+		$(document).ready(function() {
+			$("#txtCampaignDetails").rangeLimit({
+				at_least: 140,
+				no_more_than: 1000,
+				id_result: "charsToGo",
+				alertClass: "text-danger"
+			});
+		});
+
+### Options:
+
+* **`at_least`**: Minimum required number of characters (REQUIRED)
+* **`no_more_than`**: Maximum number of characters (REQUIRED)
+* **`id_result`**: ID of element that will display the counter (REQUIRED)
+* **`alertClass`**: Class to add to the counter when there are 10 or less characters available (NOT REQUIRED)
+
+### Requirements:
+
+* jQuery
