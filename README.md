@@ -34,8 +34,12 @@ JavaScript:
 * **`at_least`**: Minimum required number of characters (REQUIRED)
 * **`no_more_than`**: Maximum number of characters (REQUIRED)
 * **`id_result`**: ID of element that will display the counter (REQUIRED)
-* **`alertClass`**: Class to add to the counter when there are 10 or less characters available (NOT REQUIRED)
+* **`alertClass`**: Class to add to the counter when there are 10 or less characters available (OPTIONAL)
 
 ### Requirements:
 
 * jQuery
+
+### Todo:
+
+* Make `no_more_than` field optional.
