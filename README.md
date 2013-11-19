@@ -15,10 +15,8 @@ A textarea countdown plugin for those that require a range (more than x, less th
 ### Usage Example:
 HTML:
 
-<textarea id="txtCampaignDetails" class="span5 form-control"
-rows="5" placeholder="Details here"></textarea>
-
-<p id="charsToGo"></p>
+		<textarea id="txtCampaignDetails" class="span5 form-control" rows="5" placeholder="Details here"></textarea>
+		<p id="charsToGo"></p>
 
 JavaScript:
 
